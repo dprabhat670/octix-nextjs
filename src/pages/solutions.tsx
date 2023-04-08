@@ -1,17 +1,5 @@
 import Image from 'next/image';
-import {
-  Box,
-  Center,
-  Heading,
-  Text,
-  Stack,
-  Avatar,
-  Container,
-  useColorModeValue,
-  Flex,
-  Grid,
-  SimpleGrid,
-} from '@chakra-ui/react';
+import { Box, Heading, Text, Stack, Container } from '@chakra-ui/react';
 import styles from '@/styles/Home.module.css';
 export default function SolutionCard() {
   interface carddata {
@@ -72,7 +60,7 @@ export default function SolutionCard() {
               <Box
                 key={item.id}
                 maxW={'445px'}
-                bg={useColorModeValue('white', 'gray.900')}
+                bg={'gray.900'}
                 boxShadow={'base'}
                 rounded={'md'}
                 p={6}
@@ -101,7 +89,7 @@ export default function SolutionCard() {
                     {item.title}
                   </Text>
                   <Heading
-                    color={useColorModeValue('gray.700', 'white')}
+                    color={'gray.700'}
                     fontSize={'2xl'}
                     fontFamily={'body'}
                   >

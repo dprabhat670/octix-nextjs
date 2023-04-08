@@ -1,5 +1,4 @@
 import Head from 'next/head';
-
 import Cta from './cta';
 import Features from './features';
 import Gridfeatures from './gridfeatures';
