@@ -1,23 +1,14 @@
-// import '@/styles/globals.css'
-// import { ChakraProvider } from '@chakra-ui/react'
-
-// function MyApp({ Component, pageProps }) {
-//   return (
-//     <ChakraProvider>
-//       <Component {...pageProps} />
-//     </ChakraProvider>
-//   )
-// }
-
-// export default MyApp
 import '@/styles/globals.css';
+import Navbar from './navbar';
 import { ChakraProvider } from '@chakra-ui/react';
 import type { AppProps } from 'next/app';
-
+import Footer from './footer';
 function MyApp({ Component, pageProps }: AppProps) {
   return (
     <ChakraProvider>
+      <Navbar />
       <Component {...pageProps} />
+      <Footer />
     </ChakraProvider>
   );
 }

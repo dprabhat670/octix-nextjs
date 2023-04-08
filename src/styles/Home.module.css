@@ -18,8 +18,30 @@
   transform: rotate(-3deg);
   z-index: -2;
 }
+.solcard {
+  column-gap: 1rem;
+  flex-direction: column;
+}
 @media screen and (min-width: 600px) {
   .logo {
     margin: 0rem 0.5rem 0rem 2rem;
+  }
+}
+.cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 3rem;
+}
+
+@media screen and (max-width: 600px) {
+  .logo {
+    margin: 0rem 6px 0rem 0rem;
+  }
+  .cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 3rem;
   }
 }

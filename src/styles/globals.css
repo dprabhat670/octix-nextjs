@@ -1,3 +1,8 @@
 :root {
   overflow-x: hidden;
 }
+@media screen and (max-width: 400px) {
+  :root {
+    overflow-x: scroll;
+  }
+}

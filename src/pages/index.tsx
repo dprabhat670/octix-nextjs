@@ -1,9 +1,9 @@
 import Head from 'next/head';
-import Navbar from './navbar';
+
 import Cta from './cta';
 import Features from './features';
 import Gridfeatures from './gridfeatures';
-import Footer from './footer';
+
 export default function Home() {
   return (
     <>
@@ -14,13 +14,11 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
-        <Navbar />
         <Cta />
         <Features />
         <br />
         <br />
         <Gridfeatures />
-        <Footer />
       </main>
     </>
   );

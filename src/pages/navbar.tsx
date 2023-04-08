@@ -1,3 +1,4 @@
+import { useRef, useEffect } from 'react';
 import {
   Box,
   Flex,
@@ -24,6 +25,9 @@ import {
 import Auth from './auth';
 import Image from 'next/image';
 import styles from '@/styles/Home.module.css';
+
+// Main navbar function
+
 export default function Navbar() {
   const { isOpen, onToggle } = useDisclosure();
 
@@ -54,6 +58,7 @@ export default function Navbar() {
             aria-label={'Toggle Navigation'}
           />
         </Flex>
+
         <Flex flex={{ base: 1 }} justify={{ base: 'center', md: 'start' }}>
           <Image
             alt={'logo'}
@@ -62,14 +67,16 @@ export default function Navbar() {
             height={20}
             className={styles.logo}
           />
-          <Text
+
+          <Link
+            href={'/'}
             textAlign={useBreakpointValue({ base: 'center', md: 'left' })}
             fontFamily={'heading'}
             color={useColorModeValue('gray.800', 'white')}
             fontWeight={'bold'}
           >
             Octix
-          </Text>
+          </Link>
 
           <Flex display={{ base: 'none', md: 'flex' }} ml={10}>
             <DesktopNav />
@@ -204,7 +211,7 @@ const DesktopSubNav = ({ label, href, subLabel }: NavItem) => {
     </Link>
   );
 };
-
+// For smaller screens
 const MobileNav = () => {
   return (
     <Stack
@@ -272,6 +279,7 @@ const MobileNavItem = ({ label, children, href }: NavItem) => {
   );
 };
 
+// Nav data to be displayed
 interface NavItem {
   label: string;
   subLabel?: string;
@@ -303,7 +311,7 @@ const NAV_ITEMS: Array<NavItem> = [
   },
   {
     label: 'Solutions',
-    href: '/',
+    href: '/solutions',
     children: [
       {
         label: 'Embedded Finance',
@@ -313,6 +321,16 @@ const NAV_ITEMS: Array<NavItem> = [
       {
         label: 'Marketplaces',
         subLabel: 'An exclusive list for the best marketplaces',
+        href: '#',
+      },
+      {
+        label: 'Saas',
+        subLabel: 'Unify payments, billing, and revenue management',
+        href: '#',
+      },
+      {
+        label: 'Ecommerce',
+        subLabel: 'A complete payments platform for ecommerce',
         href: '#',
       },
     ],
