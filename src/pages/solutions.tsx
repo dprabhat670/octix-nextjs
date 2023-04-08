@@ -60,7 +60,7 @@ export default function SolutionCard() {
               <Box
                 key={item.id}
                 maxW={'445px'}
-                bg={'gray.900'}
+                bg={'white'}
                 boxShadow={'base'}
                 rounded={'md'}
                 p={6}
