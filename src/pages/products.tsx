@@ -143,7 +143,14 @@ const GridListWithHeading = () => {
           position={'relative'}
         >
           {Features.map((feature) => (
-            <HStack key={feature.id} align={'top'}>
+            <HStack
+              key={feature.id}
+              align={'top'}
+              boxShadow={'md'}
+              padding={2}
+              paddingTop={4}
+              borderRadius={13}
+            >
               <Box color={'green.400'} px={2}>
                 <Icon
                   width={7}

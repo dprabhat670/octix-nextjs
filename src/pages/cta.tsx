@@ -13,7 +13,7 @@ import {
   IconProps,
   useColorModeValue,
 } from '@chakra-ui/react';
-
+import Link from 'next/link';
 export default function Cta() {
   return (
     <Container maxW={'7xl'}>
@@ -73,7 +73,7 @@ export default function Cta() {
                 bg: 'linear-gradient(90deg, #007eff 30%, #00b3ff 90%)',
               }}
             >
-              Get started
+              <Link href={'/signup'}> Get started </Link>
             </Button>
             <Button
               rounded={'full'}

@@ -21,9 +21,10 @@ import {
   ChevronDownIcon,
   ChevronRightIcon,
 } from '@chakra-ui/icons';
-import Auth from './auth';
+import Auth from './signup';
 import Image from 'next/image';
 import styles from '@/styles/Home.module.css';
+import { useRef } from 'react';
 
 // Main navbar function
 
@@ -94,7 +95,7 @@ export default function Navbar() {
             fontWeight={400}
             variant={'link'}
             zIndex={'5'}
-            href={'#'}
+            href={'/signin'}
           >
             Sign In
           </Button>
@@ -108,7 +109,7 @@ export default function Navbar() {
             bgGradient={
               'linear-gradient(90deg, #007eff 17.91%, #00b3ff 76.64%)'
             }
-            href={'/auth'}
+            href={'/signup'}
             _hover={{
               bg: 'linear-gradient(90deg, #007eff 20%, #00b3ff 90%)',
             }}
@@ -233,7 +234,6 @@ const MobileNavItem = ({ label, children, href }: NavItem) => {
       <Flex
         py={2}
         as={Link}
-        href={href ?? '#'}
         justify={'space-between'}
         align={'center'}
         _hover={{
@@ -294,17 +294,17 @@ const NAV_ITEMS: Array<NavItem> = [
       {
         label: 'Global Payments',
         subLabel: 'Do transactions anywhere in the world',
-        href: '#',
+        href: '/globalpay',
       },
       {
         label: 'Revenue & Finance management',
         subLabel: 'Manage business revenue and finances',
-        href: '#',
+        href: '/revenue',
       },
       {
         label: 'Business Intelligence',
         subLabel: 'Up-and-coming Software as a services ',
-        href: '#',
+        href: '/business',
       },
     ],
   },
@@ -315,22 +315,22 @@ const NAV_ITEMS: Array<NavItem> = [
       {
         label: 'Embedded Finance',
         subLabel: 'Saas with full fledge financial capabilities',
-        href: '#',
+        href: '/embedded',
       },
       {
         label: 'Marketplaces',
         subLabel: 'An exclusive list for the best marketplaces',
-        href: '#',
+        href: '/marketplaces',
       },
       {
         label: 'Saas',
         subLabel: 'Unify payments, billing, and revenue management',
-        href: '#',
+        href: '/business',
       },
       {
         label: 'Ecommerce',
         subLabel: 'A complete payments platform for ecommerce',
-        href: '#',
+        href: '/ecommerce',
       },
     ],
   },
@@ -339,7 +339,7 @@ const NAV_ITEMS: Array<NavItem> = [
     href: '#',
   },
   {
-    label: 'About',
-    href: '#',
+    label: 'Pricing',
+    href: '/pricing',
   },
 ];

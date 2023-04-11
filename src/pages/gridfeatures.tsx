@@ -36,6 +36,7 @@ const Card = ({ heading, description, icon, href }: CardProps) => {
       borderRadius="lg"
       overflow="hidden"
       p={5}
+      boxShadow={'xl'}
     >
       <Stack align={'start'} spacing={2}>
         <Flex
