@@ -15,7 +15,7 @@ export default function SolutionCard() {
       id: 1,
       title: 'Ecommerce solution',
       heading: 'A complete payments platform for ecommerce',
-      text: 'Octix provides all the tools you need to accept payments online and in-person from customers around the world. Plus, our platform maximizes conversion and reduces fraud using machine learning.',
+      text: 'Paybora provides all the tools you need to accept payments online and in-person from customers around the world. Plus, our platform maximizes conversion and reduces fraud using machine learning.',
       image: '/ecommerce marketing.jpg',
     },
     {

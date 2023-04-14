@@ -33,7 +33,7 @@ export default function Auth() {
             Sign up
           </Heading>
           <Text fontSize={'lg'} color={'gray.600'}>
-            to start your financial journey with Octix ✌️
+            to start your financial journey with Paybora ✌️
           </Text>
         </Stack>
         <Box

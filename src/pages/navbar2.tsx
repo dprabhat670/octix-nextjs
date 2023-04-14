@@ -30,7 +30,7 @@ export default function Nav2() {
             color={useColorModeValue('gray.800', 'white')}
             fontWeight={'bold'}
           >
-            Octix
+            Paybora
           </Link>
         </Flex>
       </Box>

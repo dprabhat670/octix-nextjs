@@ -53,7 +53,7 @@ export default function Cta() {
           </Heading>
           <Text color={'gray.500'}>
             Millions of businesses of all sizes—from startups to large
-            enterprises—use Swipo’s software to accept payments, send payouts,
+            enterprises—use Paybora’s software to accept payments, send payouts,
             and manage their businesses online.
           </Text>
           <Stack

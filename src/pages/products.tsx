@@ -40,7 +40,7 @@ const Features = ([] = [
   {
     id: 1,
     title: 'Payments',
-    text: 'Accept payments and move money globally with Octix’s powerful APIs and software solutions designed to help you capture more revenue.',
+    text: 'Accept payments and move money globally with Paybora’s powerful APIs and software solutions designed to help you capture more revenue.',
     Icon: MdPayments,
 
     color1: 'gray.100',
@@ -49,7 +49,7 @@ const Features = ([] = [
   {
     id: 2,
     title: 'Checkout',
-    text: 'Octix Checkout is a prebuilt, hosted payment page optimized for conversion. Whether you offer one-time purchases or subscriptions, use Checkout to easily and securely accept payments online.',
+    text: 'Paybora Checkout is a prebuilt, hosted payment page optimized for conversion. Whether you offer one-time purchases or subscriptions, use Checkout to easily and securely accept payments online.',
     Icon: IoBagCheckOutline,
     color1: 'gray.100',
     color2: 'green.400',
@@ -57,7 +57,7 @@ const Features = ([] = [
   {
     id: 3,
     title: 'Billing',
-    text: 'Octix Billing is the fastest way for your business to bill customers with subscriptions or invoices. Capture more revenue, support new products or business models, and accept recurring payments globally.',
+    text: 'Paybora Billing is the fastest way for your business to bill customers with subscriptions or invoices. Capture more revenue, support new products or business models, and accept recurring payments globally.',
     Icon: FaFileInvoice,
     color1: 'gray.100',
     color2: 'blue.400',
@@ -65,7 +65,7 @@ const Features = ([] = [
   {
     id: 4,
     title: 'Financial Connections',
-    text: 'Octix Financial Connections lets your users securely share their financial data so you can streamline payments, reduce fraud, underwrite risk, build new products, and more. Integrate once to retrieve financial data and use it to move money or build financial products through Octix’s interoperable APIs.',
+    text: 'Paybora Financial Connections lets your users securely share their financial data so you can streamline payments, reduce fraud, underwrite risk, build new products, and more. Integrate once to retrieve financial data and use it to move money or build financial products through Paybora’s interoperable APIs.',
     Icon: SiMoneygram,
     color1: 'white',
     color2: 'yellow.400',
@@ -73,7 +73,7 @@ const Features = ([] = [
   {
     id: 5,
     title: 'Terminal',
-    text: 'Octix Terminal enables you to build your own in-person checkout to accept payments in the physical world. Built with platforms and modern retailers in mind, Terminal helps you unify your online and offline channels with flexible developer tools, pre-certified card readers, and cloud-based hardware management.',
+    text: 'Paybora Terminal enables you to build your own in-person checkout to accept payments in the physical world. Built with platforms and modern retailers in mind, Terminal helps you unify your online and offline channels with flexible developer tools, pre-certified card readers, and cloud-based hardware management.',
     Icon: SiContactlesspayment,
     color1: 'white',
     color2: 'red.600',
@@ -97,7 +97,7 @@ const Features = ([] = [
   {
     id: 8,
     title: 'Identity',
-    text: 'Octix Identity lets you programmatically confirm the identity of global users so you can prevent attacks from fraudsters while minimizing friction for legitimate customers.',
+    text: 'Paybora Identity lets you programmatically confirm the identity of global users so you can prevent attacks from fraudsters while minimizing friction for legitimate customers.',
     Icon: HiIdentification,
     color1: 'white',
     color2: 'orange.400',
@@ -105,7 +105,7 @@ const Features = ([] = [
   {
     id: 9,
     title: 'Sigma',
-    text: 'Octix Sigma has helped accelerate our financial close process. Instead of manually combining multiple data sources each month, we’re now able to run a few simple queries in Sigma, enabling faster monthly reconciliation for credit card transactions.',
+    text: 'Paybora Sigma has helped accelerate our financial close process. Instead of manually combining multiple data sources each month, we’re now able to run a few simple queries in Sigma, enabling faster monthly reconciliation for credit card transactions.',
     Icon: ImSigma,
     color1: 'gray.100',
     color2: 'pink.400',
@@ -113,7 +113,7 @@ const Features = ([] = [
   {
     id: 10,
     title: 'Connected',
-    text: 'Octix Financial Connections lets your users securely share their financial data so you can streamline payments, reduce fraud, underwrite risk, build new products, and more. Integrate once to retrieve financial data and use it to move money or build financial products through Octix’s interoperable APIs.',
+    text: 'Paybora Financial Connections lets your users securely share their financial data so you can streamline payments, reduce fraud, underwrite risk, build new products, and more. Integrate once to retrieve financial data and use it to move money or build financial products through Paybora’s interoperable APIs.',
     Icon: MdPrivateConnectivity,
     color1: 'white',
     color2: 'green.700',
@@ -129,10 +129,10 @@ const GridListWithHeading = () => {
         </Heading>
         <Text color={'gray.600'} fontSize={'xl'}>
           We bring together everything that’s required to build websites and
-          apps that accept payments and send payouts globally. Octix’s products
-          power payments for online and in-person retailers, subscriptions
-          businesses, software platforms and marketplaces, and everything in
-          between.
+          apps that accept payments and send payouts globally. Paybora’s
+          products power payments for online and in-person retailers,
+          subscriptions businesses, software platforms and marketplaces, and
+          everything in between.
         </Text>
       </Stack>
 

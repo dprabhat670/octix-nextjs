@@ -47,7 +47,7 @@ export default function CallToActionWithAnnotation() {
             </Text>
           </Heading>
           <Text color={'gray.800'} fontSize={'2xl'}>
-            Accept payments and move money globally with Octix’s powerful APIs
+            Accept payments and move money globally with Paybora’s powerful APIs
             and software solutions designed to help you capture more revenue.
           </Text>
           <Stack
@@ -86,7 +86,7 @@ export default function CallToActionWithAnnotation() {
           Checkout
         </Text>
         <Text fontSize={30} width={'60%'}>
-          Octix Checkout is a prebuilt, hosted payment page optimized for
+          Paybora Checkout is a prebuilt, hosted payment page optimized for
           conversion. Whether you offer one-time purchases or subscriptions, use
           Checkout to easily and securely accept payments online.
         </Text>
@@ -123,8 +123,8 @@ export default function CallToActionWithAnnotation() {
           position={'relative'}
           color={'white'}
         >
-          Accept payments and move money globally with Octix’s powerful APIs and
-          software solutions designed to help you capture more revenue.
+          Accept payments and move money globally with Paybora’s powerful APIs
+          and software solutions designed to help you capture more revenue.
         </Text>
         <Image
           alt="payments page"
@@ -145,11 +145,11 @@ export default function CallToActionWithAnnotation() {
           Financial Connections
         </Text>
         <Text fontSize={25} width={'60%'}>
-          Octix Financial Connections lets your users securely share their
+          Paybora Financial Connections lets your users securely share their
           financial data so you can streamline payments, reduce fraud,
           underwrite risk, build new products, and more. Integrate once to
           retrieve financial data and use it to move money or build financial
-          products through Octix’s interoperable APIs.
+          products through Paybora’s interoperable APIs.
         </Text>
         <Image
           alt="payments page"
@@ -183,7 +183,7 @@ const Features = ([] = [
   {
     id: 2,
     title: 'Sigma',
-    text: 'Octix Sigma has helped accelerate our financial close process. Instead of manually combining multiple data sources each month, we’re now able to run a few simple queries in Sigma, enabling faster monthly reconciliation for credit card transactions.',
+    text: 'Paybora Sigma has helped accelerate our financial close process. Instead of manually combining multiple data sources each month, we’re now able to run a few simple queries in Sigma, enabling faster monthly reconciliation for credit card transactions.',
     Icon: ImSigma,
     color1: 'gray.100',
     color2: 'pink.400',
@@ -191,7 +191,7 @@ const Features = ([] = [
   {
     id: 3,
     title: 'Terminal',
-    text: 'Octix Terminal enables you to build your own in-person checkout to accept payments in the physical world. Built with platforms and modern retailers in mind, Terminal helps you unify your online and offline channels with flexible developer tools, pre-certified card readers, and cloud-based hardware management.',
+    text: 'Paybora Terminal enables you to build your own in-person checkout to accept payments in the physical world. Built with platforms and modern retailers in mind, Terminal helps you unify your online and offline channels with flexible developer tools, pre-certified card readers, and cloud-based hardware management.',
     Icon: SiContactlesspayment,
     color1: 'white',
     color2: 'red.600',

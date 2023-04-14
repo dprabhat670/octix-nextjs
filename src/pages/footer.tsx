@@ -21,9 +21,9 @@ const Logo = (props: any) => {
   return (
     <>
       <Flex>
-        <Image alt={'logo'} src={'/logo.svg'} width={30} height={30} />
+        <Image alt={'logo'} src={'/newlogo.png'} width={40} height={20} />
         <Text fontSize={28} fontWeight={'bold'} marginLeft={3}>
-          Octix
+          Paybora
         </Text>
       </Flex>
     </>
@@ -85,7 +85,7 @@ export default function LargeWithNewsletter() {
             <Box>
               <Logo color={useColorModeValue('gray.700', 'white')} />
             </Box>
-            <Text fontSize={'sm'}>© 2023 Octix . All rights reserved</Text>
+            <Text fontSize={'sm'}>© 2023 Paybora . All rights reserved</Text>
             <Stack direction={'row'} spacing={6}>
               <SocialButton label={'Twitter'} href={'#'}>
                 <FaTwitter />

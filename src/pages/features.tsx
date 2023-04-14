@@ -55,18 +55,18 @@ export default function Features() {
             alignSelf={'flex-start'}
             rounded={'md'}
           >
-            Why Octix ?
+            Why Paybora ?
           </Text>
           <Text fontSize={'2rem'} color={'blue.400'}>
             Embrace nimble methodologies to streamline your enterprise
           </Text>
           <Text color={'white'} fontSize={'md'}>
-            You can use Octix not only to accept payments but also to quickly
+            You can use Paybora not only to accept payments but also to quickly
             support new markets, upgrade existing systems and tools, go
             direct-to-consumer, and engage customers with subscriptions and
             marketplaces. Get expert integration guidance from our professional
-            services team and certified partners so you can see value with Octix
-            faster.
+            services team and certified partners so you can see value with
+            Paybora faster.
           </Text>
           <Stack
             spacing={4}

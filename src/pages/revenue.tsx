@@ -41,10 +41,10 @@ export default function CallToActionWithAnnotation() {
             </Text>
           </Heading>
           <Text color={'gray.800'} fontSize={'2xl'}>
-            Octix Revenue and finance management streamlines accrual accounting
-            so you can close your books quickly and accurately. Automate and
-            configure revenue reports to simplify compliance with IFRS 15 and
-            ASC 606 revenue recognition standards.
+            Paybora Revenue and finance management streamlines accrual
+            accounting so you can close your books quickly and accurately.
+            Automate and configure revenue reports to simplify compliance with
+            IFRS 15 and ASC 606 revenue recognition standards.
           </Text>
           <Stack
             direction={'column'}
@@ -83,7 +83,7 @@ export default function CallToActionWithAnnotation() {
           Billing
         </Text>
         <Text fontSize={30} width={'60%'}>
-          Octix Billing is the fastest way for your business to bill customers
+          Paybora Billing is the fastest way for your business to bill customers
           with subscriptions or invoices. Capture more revenue, support new
           products or business models, and accept recurring payments globally.
         </Text>
@@ -122,11 +122,11 @@ export default function CallToActionWithAnnotation() {
           position={'relative'}
           color={'white'}
         >
-          Octix Invoicing is a global invoicing software platform built to save
-          you time and get you paid faster. Create an invoice and send it to
-          your customers in minutes—no code required. Our advanced features and
-          Invoicing API make it easy to automate accounts receivable, collect
-          payments, and reconcile transactions.
+          Paybora Invoicing is a global invoicing software platform built to
+          save you time and get you paid faster. Create an invoice and send it
+          to your customers in minutes—no code required. Our advanced features
+          and Invoicing API make it easy to automate accounts receivable,
+          collect payments, and reconcile transactions.
         </Text>
         <Image
           alt="payments page"
@@ -148,7 +148,7 @@ export default function CallToActionWithAnnotation() {
           Revenue reporting
         </Text>
         <Text fontSize={25} width={'60%'}>
-          Octix Revenue Recognition streamlines accrual accounting so you can
+          Paybora Revenue Recognition streamlines accrual accounting so you can
           close your books quickly and accurately. Automate and configure
           revenue reports to simplify compliance with IFRS 15 and ASC 606
           revenue recognition standards.

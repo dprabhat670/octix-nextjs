@@ -110,8 +110,8 @@ export default function CallToActionWithAnnotation() {
           position={'relative'}
           color={'gray.800'}
         >
-          Accept payments and move money globally with Octix’s powerful APIs and
-          software solutions designed to help you capture more revenue.
+          Accept payments and move money globally with Paybora’s powerful APIs
+          and software solutions designed to help you capture more revenue.
         </Text>
         <Image
           alt="payments page"

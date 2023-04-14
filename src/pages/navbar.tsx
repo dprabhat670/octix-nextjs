@@ -62,7 +62,7 @@ export default function Navbar() {
         <Flex flex={{ base: 1 }} justify={{ base: 'center', md: 'start' }}>
           <Image
             alt={'logo'}
-            src={'/logo.svg'}
+            src={'/newlogo.png'}
             width={20}
             height={20}
             className={styles.logo}
@@ -72,10 +72,10 @@ export default function Navbar() {
             href={'/'}
             textAlign={useBreakpointValue({ base: 'center', md: 'left' })}
             fontFamily={'heading'}
-            color={useColorModeValue('gray.800', 'white')}
+            color={'#020283'}
             fontWeight={'bold'}
           >
-            Octix
+            Paybora
           </Link>
 
           <Flex display={{ base: 'none', md: 'flex' }} ml={10}>
