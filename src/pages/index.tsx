@@ -1,3 +1,4 @@
+'use client';
 import Head from 'next/head';
 import Cta from './cta';
 import Features from './features';

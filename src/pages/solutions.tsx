@@ -1,3 +1,4 @@
+'use client';
 import Image from 'next/image';
 import { Box, Heading, Text, Stack, Container } from '@chakra-ui/react';
 import styles from '@/styles/Home.module.css';
