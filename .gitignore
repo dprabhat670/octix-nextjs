@@ -37,3 +37,6 @@ next-env.d.ts
 
 #backend file
 folderstr.js
+
+#zip file 
+my-app.zip
