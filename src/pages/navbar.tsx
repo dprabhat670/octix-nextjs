@@ -76,7 +76,7 @@ export default function Navbar() {
             color={'#020283'}
             fontWeight={'bold'}
           >
-            Paybora
+            EvenX
           </Link>
 
           <Flex display={{ base: 'none', md: 'flex' }} ml={10}>

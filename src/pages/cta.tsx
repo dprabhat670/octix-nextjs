@@ -40,7 +40,7 @@ export default function Cta() {
                 ' ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"'
               }
             >
-              Next-generation finance ,powered
+              Helping traders & Investors
             </Text>
             <br />
             <Text
@@ -49,13 +49,12 @@ export default function Cta() {
               bgClip="text"
               fontWeight={'bold'}
             >
-              by technology !
+              with technology !
             </Text>
           </Heading>
           <Text color={'gray.500'}>
-            Millions of businesses of all sizes—from startups to large
-            enterprises—use Paybora’s software to accept payments, send payouts,
-            and manage their businesses online.
+            Get all Financial data , news updates , algotrading setup in one
+            place.
           </Text>
           <Stack
             spacing={{ base: 4, sm: 6 }}
