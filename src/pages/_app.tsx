@@ -7,6 +7,7 @@ import type { AppProps } from 'next/app';
 import Footer from './footer';
 import Nav2 from './navbar2';
 import Head from 'next/head';
+import { Analytics } from '@vercel/analytics/react';
 function MyApp({ Component, pageProps }: AppProps) {
   const router = useRouter();
   if (router.pathname === '/signup' || router.pathname === '/signin') {
@@ -32,6 +33,7 @@ function MyApp({ Component, pageProps }: AppProps) {
         <Component {...pageProps} />
         <Footer />
       </ChakraProvider>
+      <Analytics />
     </>
   );
 }
